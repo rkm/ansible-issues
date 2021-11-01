@@ -39,3 +39,8 @@ Stop task execution here.
 ```yaml
 - pause:
 ```
+
+## TODO
+
+-   Note on system dnf/selinux libs for RHEL
+-   Note on controller vs remote sources
