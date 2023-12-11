@@ -10,9 +10,9 @@ interpreted as a boolean, so results may be surprising.
 
 A few solutions:
 
--   `-eFOO=`
--   `-e{FOO: false}`
--   Be paranoid and put `| bool` at the end of all your conditionals
+- `-eFOO=`
+- `-e{FOO: false}`
+- Be paranoid and put `| bool` at the end of all your conditionals
 
 ## Tips
 
@@ -29,7 +29,7 @@ OR
 
 ```yaml
 - debug:
-      msg: foo is {{ foo }}
+    msg: foo is {{ foo }}
 ```
 
 ### Pause
@@ -42,5 +42,5 @@ Stop task execution here.
 
 ## TODO
 
--   Note on system dnf/selinux libs for RHEL
--   Note on controller vs remote sources
+- Note on system dnf/selinux libs for RHEL
+- Note on controller vs remote sources
